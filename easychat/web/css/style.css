@@ -1,0 +1,91 @@
+body{
+    background-image:url("/img/IMG_20171111_162331_mix01.jpg");
+    /*background-color: rgba(185, 245, 209, 0.5);*/
+    -webkit-background-size: 100%;
+    background-size: cover;
+}
+h1{
+    font-family: "Adobe 黑体 Std R";
+    font-style: italic;
+    word-spacing: 8px;
+    color: #e7e4e9;
+}
+.talk{
+    background-color: rgba(255, 255, 255, 0.7);
+    width:800px;
+    height: 600px;
+    overflow-y: auto;
+    margin:auto;
+    margin-top:100px;
+    box-shadow: 0px 0px 16px 3px #fff;
+
+}
+.talk > span{
+    max-width:300px;
+    min-height: 30px;
+    display: block;
+    background-color: #2084eb;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    color:#fff;
+    padding:5px 0 0 10px;
+    margin:20px 0 10px 20px;
+    overflow-x:auto;
+    overflow-y: auto;
+}
+.input{
+    width:800px;
+    margin:20px auto;
+}
+.content{
+    border:2px solid #2084eb;
+    width:700px;
+    height:40px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+.content:focus{
+    outline: none;
+}
+.send{
+    background-color: #2084eb;
+    border:none;
+    color:#fff;
+    width:100px;
+    height:40px;
+    border-radius: 8px;
+}
+.send:focus{
+    outline: none;
+}
+.login{
+    align-content: center;
+    border:none;
+    border-radius: 8px;
+    overflow: auto;
+    margin: 15%;
+    padding: 5px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 16px 3px #ffffff;
+}
+.f1{
+    font-family: 微软雅黑;
+    font-weight: bold;
+    font-size:large;
+
+}
+.f1 > input{
+    margin-top: 15px;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+}
+.finish{
+    margin-left: 40px;
+    background-color: #2084eb;
+    border:none;
+    color:#fff;
+    width:60px;
+    height: 30px;
+}
